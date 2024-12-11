@@ -1,0 +1,157 @@
+/* App.css */
+html {
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+body {
+  display: block !important; /* Prevents horizontal scroll */
+}
+
+.App {
+  text-align: center; /* Center aligns the content */
+  padding: 0 3vw 3vw; /* Adds padding to the sides and bottom */
+  color: #1b1c1d; /* Sets the text color */
+  background-color: whitesmoke; /* Sets the background color */
+  margin-top: 143px; /* Adds space at the top */
+}
+
+.sticky {
+  text-align: center; /* Center aligns the content */
+  position: fixed; /* Fixes the position */
+  top: 0; /* Aligns to the top */
+  left: 0; /* Aligns to the left */
+  right: 0; /* Aligns to the right */
+  margin: 0; /* Removes margin */
+  background-color: #f76902; /* Sets the background color */
+  color: white; /* Sets the text color */
+  padding: 10px; /* Adds padding */
+  font-size: 20px; /* Sets the font size */
+  font-weight: bold; /* Sets the font weight */
+  z-index: 999999; /* Sets the z-index */
+}
+
+.sticky nav {
+  display: flex; /* Displays as a flex container */
+  justify-content: center; /* Centers the content */
+  gap: 20px; /* Adds space between the items */
+  margin-top: 10px; /* Adds space at the top */
+}
+
+.sticky nav a {
+  color: white; /* Sets the text color */
+  text-decoration: none; /* Removes the underline */
+  font-size: 18px; /* Sets the font size */
+  font-weight: bold; /* Sets the font weight */
+  padding: 8px 16px; /* Adds padding */
+  border-radius: 4px; /* Adds rounded corners */
+  transition: background-color 0.3s ease; /* Adds a smooth transition */
+}
+
+.sticky nav a:hover {
+  background-color: #8a3700; /* Changes the background color on hover */
+}
+
+.sticky > h1 {
+  margin: 0; /* Removes margin */
+}
+
+.About {
+  margin: 0 auto; /* Centers the content */
+  background-color: #f76902; /* Sets the background color */
+  color: white; /* Sets the text color */
+  padding: 20px; /* Adds padding */
+  margin-bottom: 10px; /* Adds space at the bottom */
+}
+
+.About > h2, .About > h3 {
+  margin: 0px; /* Removes margin */
+  color: #ffffff; /* Sets the text color */
+}
+
+.About > h3 {
+  font-weight: 400; /* Sets the font weight */
+  margin-top: 10px; /* Adds space at the top */
+  margin-bottom: 25px; /* Adds space at the bottom */
+}
+
+#About {
+  margin-top: 20px; /* Adds space at the top */
+}
+
+.aboutQuote {
+  padding: 0 2em; /* Adds padding to the sides */
+  border: 3px solid #D0D3D4; /* Adds a border */
+  border-radius: 15px; /* Adds rounded corners */
+  background-color: #ffffff; /* Sets the background color */
+  color: #f76902; /* Sets the text color */
+}
+
+.hamburger {
+  display: none; /* Hides the hamburger menu */
+  cursor: pointer; /* Changes the cursor to a pointer */
+  position: absolute; /* Sets the position */
+  top: 50%; /* Aligns to the top */
+  right: 20px; /* Aligns to the right */
+  transform: translateY(-50%); /* Centers vertically */
+  z-index: 100000; /* Sets the z-index */
+}
+
+.line {
+  width: 25px; /* Sets the width */
+  height: 3px; /* Sets the height */
+  background-color: white; /* Sets the background color */
+  margin: 5px; /* Adds margin */
+  transition: all 0.3s ease; /* Adds a smooth transition */
+}
+
+.hamburger.open .line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px); /* Rotates and translates the line */
+}
+
+.hamburger.open .line:nth-child(2) {
+  opacity: 0; /* Hides the line */
+}
+
+.hamburger.open .line:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px); /* Rotates and translates the line */
+}
+
+.menu {
+  display: flex; /* Displays as a flex container */
+  justify-content: center; /* Centers the content */
+  gap: 20px; /* Adds space between the items */
+  margin-top: 10px; /* Adds space at the top */
+}
+
+@media (max-width: 1120px) {
+  .hamburger {
+    display: block; /* Displays the hamburger menu */
+  }
+
+  .App {
+    margin-top: 80px; /* Adds space at the top */
+  }
+
+  .menu {
+    position: fixed; /* Fixes the position */
+    top: 0; /* Aligns to the top */
+    right: -100%; /* Aligns to the right */
+    width: 200px; /* Sets the width */
+    height: 100vh; /* Sets the height */
+    background-color: #f76902; /* Sets the background color */
+    flex-direction: column; /* Stacks the items vertically */
+    align-items: center; /* Centers the content */
+    justify-content: center; /* Centers the content */
+    transition: right 0.3s ease; /* Adds a smooth transition */
+    z-index: 99999; /* Sets the z-index */
+  }
+
+  .menu.open {
+    right: 0; /* Aligns to the right */
+  }
+}

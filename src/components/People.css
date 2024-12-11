@@ -1,0 +1,104 @@
+/* People.css */
+.peopleContainer {
+    background-color: #f76902;
+    padding: 20px;
+    color: #fff;
+}
+
+.peopleTitle {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.peopleSubTitle {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.peopleSection {
+    margin-bottom: 30px;
+}
+
+.peopleSection > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.peopleListItem {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f76902;
+    width: 25%;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.peopleListItem p {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.peopleListItem h4 {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.peopleListItem h5 {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.peopleListItem img {
+    max-width: 100%;
+    height: 400px;
+    width: 275px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.peopleSection h3 {
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #f76902;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.peopleSection h3.open {
+    border-radius: 8px 8px 0 0;
+}
+
+.peopleSection h3::after {
+    content: '▼';
+    transition: transform 0.3s;
+}
+
+.peopleSection h3.open::after {
+    transform: rotate(180deg);
+}
+
+.dropdownContent {
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

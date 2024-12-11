@@ -1,0 +1,107 @@
+.resources-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .resources-title {
+    color: #f36e21;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .resources-subtitle {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    color: #f36e21;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .section-description {
+    margin-bottom: 20px;
+  }
+  
+  .places-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .places-list li {
+    margin-bottom: 10px;
+  }
+  
+  .places-list h4 {
+    margin-bottom: 5px;
+  }
+  
+  .academic-advisors,
+  .professional-advisors,
+  .faculty-advisors,
+  .minor-advising {
+    margin-bottom: 20px;
+  }
+  
+  .professional-advisors ul,
+  .minor-advising ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .professional-advisors li,
+  .minor-advising li {
+    margin-bottom: 10px;
+  }
+  
+  .tutors-lab a,
+  .student-ambassadors a,
+  .coop-enrollment a {
+    color: #f36e21;
+    text-decoration: none;
+  }
+  
+  .tutors-lab a:hover,
+  .student-ambassadors a:hover,
+  .coop-enrollment a:hover {
+    text-decoration: underline;
+  }
+  
+  .student-ambassadors img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .graduate-forms,
+  .undergraduate-forms {
+    margin-bottom: 20px;
+  }
+  
+  .graduate-forms ul,
+  .undergraduate-forms ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .graduate-forms li,
+  .undergraduate-forms li {
+    margin-bottom: 10px;
+  }
+  
+  .graduate-forms a,
+  .undergraduate-forms a {
+    color: #f36e21;
+    text-decoration: none;
+  }
+  
+  .graduate-forms a:hover,
+  .undergraduate-forms a:hover {
+    text-decoration: underline;
+  }

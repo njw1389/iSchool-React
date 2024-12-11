@@ -1,0 +1,119 @@
+.minors-container {
+	background-color: #f76902;
+	color: #fff;
+    max-width: 2500px;
+    margin-left: auto;
+    margin-right: auto;
+  	padding: 20px;
+}
+  
+.minors-title {
+  	font-size: 32px;
+  	font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+.minors-grid {
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+  
+.minor-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+  
+.minor-name {
+    color: #f76902;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.minor-title {
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+  
+.minor-description {
+    color: #555;
+    margin-bottom: 20px;
+}
+  
+.minor-courses h4,
+.minor-note h4 {
+    color: #f76902;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.minor-courses ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0;
+}
+  
+.minor-courses li {
+    color: #000;
+    margin-bottom: 5px;
+}
+  
+.minor-note p {
+    color: #555;
+}
+  
+.loading {
+    color: #f76902;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+}
+
+.minors-grid {
+	display: flex;
+  	flex-direction: column;
+  	gap: 20px;
+}
+
+.minor-card {
+  	background-color: #fff;
+  	border-radius: 8px;
+  	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  	padding: 20px;
+  	width: 90%;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.pagination-container {
+  	display: flex;
+  	justify-content: center;
+  	margin-top: 20px;
+}
+
+.pagination-container {
+  	display: flex;
+  	justify-content: center;
+  	margin-top: 20px;
+  	margin-bottom: 20px;
+}
+
+.pagination-container .MuiPaginationItem-root {
+  	color: black;
+}
+
+.pagination-container .MuiPaginationItem-page.Mui-selected {
+  	background-color: #ffffff;
+  	color: black;
+}
+
+.css-9vsask-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected:hover {
+  	background-color: #ffffff;
+  	color: white;
+}

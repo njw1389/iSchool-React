@@ -1,0 +1,112 @@
+.rit-research-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.rit-research-title {
+  color: #f76902;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.rit-research-areas {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.rit-research-area {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rit-research-area-name {
+  color: #f76902;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.rit-research-citations {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.rit-research-citation {
+  margin-bottom: 8px;
+}
+
+.rit-research-faculty {
+  margin-top: 40px;
+}
+
+.rit-research-faculty-title {
+  color: #f76902;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.rit-research-faculty-member {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.rit-research-faculty-name {
+  color: #f76902;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.rit-research-faculty-username {
+  color: #666666;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.rit-research-faculty-citations {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.rit-research-faculty-citation {
+  margin-bottom: 8px;
+}
+
+.rit-research-pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.rit-research-pagination .MuiPaginationItem-root {
+  color: #f76902;
+}
+
+.rit-research-pagination .MuiPaginationItem-page.Mui-selected {
+  background-color: #f76902;
+  color: #ffffff;
+}
+
+.rit-load-more-button {
+  background-color: #f76902;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.rit-load-more-button:hover {
+  background-color: #c53d20;
+}
+
+.css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected:hover {
+  background-color: #ffffff;
+}

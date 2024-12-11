@@ -1,0 +1,66 @@
+.course-container {
+  max-width: 800px; /* Sets the maximum width */
+  margin: 0 auto; /* Centers the container */
+  padding: 20px; /* Adds padding */
+}
+
+.course-item {
+  margin-top: 20px; /* Adds space at the top */
+  margin-bottom: 30px; /* Adds space at the bottom */
+  padding: 20px; /* Adds padding */
+  width: 90%; /* Sets the width */
+  margin-left: auto; /* Aligns to the left */
+  margin-right: auto; /* Aligns to the right */
+  background-color: #f76902; /* Sets the background color */
+  border-radius: 5px; /* Adds rounded corners */
+  color: #ffffff; /* Sets the text color */
+}
+
+.course-item h2 {
+  margin-top: 0; /* Removes margin at the top */
+  color: #ffffff; /* Sets the text color */
+}
+
+.course-item p {
+  margin-bottom: 10px; /* Adds space at the bottom */
+  color: #ffffff; /* Sets the text color */
+}
+
+h1 {
+  color: #f76902; /* Sets the text color */
+  text-align: center; /* Centers the text */
+  margin-bottom: 30px; /* Adds space at the bottom */
+}
+
+.loading-container {
+  display: flex; /* Displays as a flex container */
+  flex-direction: column; /* Sets the direction of the flex container */
+  align-items: center; /* Centers the content */
+  justify-content: center; /* Centers the content */
+  height: 200px; /* Sets the height */
+}
+
+.loading-spinner {
+  width: 40px; /* Sets the width */
+  height: 40px; /* Sets the height */
+  border-radius: 50%; /* Makes the border a circle */
+  border: 4px solid #f76902; /* Sets the border */
+  border-top-color: transparent; /* Makes the top border transparent */
+  animation: spin 1s linear infinite; /* Adds a spinning animation */
+}
+
+/* Keyframes for the spinning animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); /* Rotates the spinner */
+  }
+  100% {
+    transform: rotate(360deg); /* Rotates the spinner */
+  }
+}
+
+.loading-text {
+  margin-top: 10px; /* Adds space at the top */
+  color: #f76902; /* Sets the text color */
+  font-weight: bold; /* Sets the font weight */
+}

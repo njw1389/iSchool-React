@@ -1,0 +1,35 @@
+.loading-container {
+    display: flex; /* This is a flex container */
+    flex-direction: column; /* The main axis is vertical */
+    align-items: center; /* Align items horizontally */
+    justify-content: center; /* Align items vertically */
+    height: 200px; /* Set the height of the container */
+}
+  
+.loading-spinner {
+    width: 40px; /* Set the width of the spinner */
+    height: 40px; /* Set the height of the spinner */
+    border-radius: 50%; /* Make the spinner round */
+    border: 4px solid #f76902; /* Set the border color and width */
+    border-top-color: white; /* Set the top border color */
+    animation: spin 1s infinite linear; /* Apply the animation */
+}
+  
+.loading-text {
+    margin-top: 10px; /* Add space above the text */
+    font-size: 18px; /* Set the font size */
+    color: #f76902; /* Set the text color */
+}
+  
+@keyframes spin {
+    0% {
+        transform: rotate(0deg); /* Rotate from 0 degrees */
+    }
+    100% {
+        transform: rotate(360deg); /* Rotate to 360 degrees */
+    }
+}
+
+.OrangeTXT {
+    color: white; /* Set the text color */
+}

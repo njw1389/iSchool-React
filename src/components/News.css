@@ -1,0 +1,60 @@
+.news-container {
+    padding: 20px;
+    max-width: 2500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: #f76902;
+    color: #fff;
+}
+  
+.news-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+}
+  
+.news-article {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.news-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #f76902;
+}
+  
+.news-date {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+  
+.news-description {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  
+.pagination-container .MuiPaginationItem-root {
+    color: #fff;
+}
+  
+.pagination-container .MuiPaginationItem-page.Mui-selected {
+    background-color: #ffffff;
+    color: #f76902;
+}
